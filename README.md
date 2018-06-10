@@ -9,7 +9,7 @@ if you click on "watch now" and "thumbs up" link it will redirect to the youtube
 if you click on dislike it will redirect on movie list
 
 ## Development server
-clone the app # 'git clone https://github.com/sandeepatiwari12/movie-app.git'
+clone the app # 'git clone https://github.com/tiwari717/movie-app.git'
 # cd movie-app, then
 # npm install, then
 # ng serve
@@ -34,4 +34,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/sandeepatiwari12/movie-app.git/master/README.md).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/tiwari717/movie-app.git/master/README.md).
