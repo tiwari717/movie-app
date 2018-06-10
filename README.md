@@ -9,10 +9,10 @@ if you click on "watch now" and "thumbs up" link it will redirect to the youtube
 if you click on dislike it will redirect on movie list
 
 ## Development server
-clone the app  'git clone https://github.com/tiwari717/movie-app.git'
-'cd movie-app'
-'npm install'
-'ng serve'
+	# clone the app  'git clone https://github.com/tiwari717/movie-app.git'
+	# 'cd movie-app'
+	# 'npm install'
+	# 'ng serve'
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
