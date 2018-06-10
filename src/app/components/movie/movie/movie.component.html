@@ -1,0 +1,48 @@
+<h2>
+  <a routerLink="/movies" 
+      matTooltip="Back to movies list" 
+      matTooltipPosition="after"
+      mat-icon-button>
+    <i class="material-icons">keyboard_backspace</i>
+  </a>&nbsp;{{name}}
+</h2>
+<!-- mat card -->
+<div class="row">
+  <ng-container *ngFor="let sMovie of movie">
+    <div class="col-md-12">
+      <mat-card class="">
+        <mat-card-header>
+          <div mat-card-avatar class="vt-header-image">
+            <img [src]="coverUrl + sMovie.img" alt="sMovie.img" class="img-responsive">
+          </div>
+          <mat-card-title class="movie-title">Type:&nbsp;
+            <ng-container *ngFor="let type of sMovie.genres">{{type}}, </ng-container>
+          </mat-card-title>
+          <mat-card-subtitle>Duration: {{sMovie.length}}</mat-card-subtitle>
+          <mat-card-subtitle>IMDB Rate : {{sMovie.rate}}/10</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content class="vt-card-containt">
+          <div class="row">
+            <div class="col-md-5 center">
+              <img [src]="coverUrl + sMovie.img" alt="sMovie.img" class="img-responsive">
+            </div>
+            <div class="col-md-7">
+              <h4>Description: </h4>
+              <p>{{sMovie.description}}</p>
+              <p><strong>Want to Watch Trailer?</strong> <a target="_blank" [href]="sMovie.trailer">Watch Now</a>
+              </p>
+              <a mat-icon-button class="vt-button-like" target="_blank" [href]="sMovie.trailer">
+                <i class="material-icons">thumb_up</i>
+              </a>
+              <a mat-icon-button class="vt-button-dislike" routerLink="/movies">
+                <i class="material-icons">thumb_down</i>
+              </a>
+            </div>
+          </div>
+        </mat-card-content>
+        <mat-card-actions>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </ng-container>
+</div>

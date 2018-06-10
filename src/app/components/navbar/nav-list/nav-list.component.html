@@ -1,0 +1,19 @@
+<div class="vt-container">
+  <mat-toolbar color="primary" class="vt-toolbar">
+    <h1 class="vt-app-name"><a routerLink="/">Movie Hub</a></h1>
+    <span class="sp"></span>
+    <a mat-button routerLink="/movies">
+      <mat-icon class="material-icons">movie</mat-icon>
+      <span class="userIcon">Movies</span>
+    </a>
+  </mat-toolbar>
+  <mat-sidenav-container class="vt-sidenav-container" >
+    <mat-sidenav-content>
+      <div class="main-container">
+        <div class="main-wrapper">
+        <router-outlet></router-outlet>
+        </div>
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>

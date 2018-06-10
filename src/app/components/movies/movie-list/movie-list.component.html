@@ -1,0 +1,43 @@
+<h2>Movie List</h2>
+<div class="row right">
+  <div class="col-md-3">
+    <mat-form-field>
+      <input type="text" matInput placeholder="Search by Name and Rating..." [(ngModel)]="searchValue" (keyup)="updateFilter($event)">
+      <button *ngIf="!searchValue" matSuffix mat-icon-button aria-label="Search">
+        <mat-icon>search</mat-icon>
+      </button>
+      <button mat-button *ngIf="searchValue" matSuffix mat-icon-button aria-label="Clear" (click)="clear()">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-form-field>
+  </div>
+</div>
+<div class="row">
+  <ng-template [ngIf]="!moviesList.length">
+    <div class="col-md-12 center">
+      <h3>Oops, No Data Found</h3>
+    </div>
+  </ng-template>
+  <ng-template [ngIf]="moviesList.length">
+    <ng-container *ngFor="let movie of moviesList">
+      <div class="col-md-4">
+        <mat-card class="vt-card link" (click)="showMovieDetails(movie)">
+          <mat-card-header>
+            <mat-card-title>Name: {{movie.name}}</mat-card-title>
+            <mat-card-subtitle class="movie-title">Type:&ngsp;
+              <ng-container *ngFor="let type of movie.genres">{{type}}, </ng-container>
+            </mat-card-subtitle>
+            <mat-card-subtitle>IMDB Rate : {{movie.rate}}/10</mat-card-subtitle>
+          </mat-card-header>
+          <div class="text-center">
+            <img [src]="coverUrl + movie.img" alt="movie.img" class="img-responsive">
+          </div>
+          <mat-card-content class="vt-card-containt">
+          </mat-card-content>
+          <mat-card-actions>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </ng-container>
+  </ng-template>
+</div>
