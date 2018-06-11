@@ -14,10 +14,10 @@
 	if you click on dislike it will redirect on movie list
 
 ## Development server
-	# clone the app  'git clone https://github.com/tiwari717/movie-app.git'
-	# 'cd movie-app'
-	# 'npm install'
-	# 'ng serve'
+	clone the app  'git clone https://github.com/sandeepatiwari12/movie-app.git'
+	cd movie-app
+	npm install
+	ng serve
 
 	Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. 
 	The app will automatically reload if you change any of the source files.
@@ -29,7 +29,7 @@
 
 ## Build
 	to build the App
-	# ng build --aot --prod, to build production
+	ng build --aot --prod, to build production
 	Run `ng build` to build the project. The build artifacts will 
 	be stored in the `dist/` directory. Use the `-prod` flag for a 
 	production build.
@@ -45,4 +45,4 @@
 ## Further help
 
 	To get more help on the Angular CLI use `ng help` or go check out the
-	 [Angular CLI README](https://github.com/tiwari717/movie-app.git/master/README.md).
+	 [Angular CLI README](https://github.com/sandeepatiwari12/movie-app/master/README.md).
