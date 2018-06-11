@@ -14,7 +14,7 @@
 	if you click on dislike it will redirect on movie list
 
 ## Development server
-	clone the app  'git clone https://github.com/sandeepatiwari12/movie-app.git'
+	clone the app  'git clone https://github.com/tiwari717/movie-app.git'
 	cd movie-app
 	npm install
 	ng serve
@@ -45,4 +45,4 @@
 ## Further help
 
 	To get more help on the Angular CLI use `ng help` or go check out the
-	 [Angular CLI README](https://github.com/sandeepatiwari12/movie-app/master/README.md).
+	 [Angular CLI README](https://github.com/tiwari717/movie-app.git/master/README.md).
