@@ -20,7 +20,7 @@
   </ng-template>
   <ng-template [ngIf]="moviesList.length">
     <ng-container *ngFor="let movie of moviesList">
-      <div class="col-md-4">
+      <div class="col-lg-3 col-md-4 col-sm-6">
         <mat-card class="vt-card link" (click)="showMovieDetails(movie)">
           <mat-card-header>
             <mat-card-title>Name: {{movie.name}}</mat-card-title>

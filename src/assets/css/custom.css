@@ -1,9 +1,9 @@
 /* layouts */
 body{
     background-color: #efe9e9;}
-a, button    
-a:focus, 
-a:hover, 
+a, button
+a:focus,
+a:hover,
 a:active,
 button:focus,
 button:hover,
@@ -42,18 +42,18 @@ button:active{
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f1;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgba(78, 28, 44, 0.582); 
-    border-radius: 50px; 
+    background: rgba(78, 28, 44, 0.582);
+    border-radius: 50px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(113, 71, 84); 
+    background: rgb(113, 71, 84);
     cursor: pointer;
 }
 /* custom scrollbar */
@@ -69,14 +69,14 @@ button:active{
     bottom: 0;
     left: 0;
     right: 0;}
-  
+
   .vt-is-mobile .vt-toolbar {
     position: fixed;
     z-index: 2;}
 
   h1.vt-app-name {
     margin-left: 8px;}
-  
+
   .vt-sidenav-container {
     flex: 1;}
 
@@ -87,19 +87,19 @@ button:active{
 
 /* ./mat navbar */
 
-.mat-list, 
-.mat-nav-list, 
+.mat-list,
+.mat-nav-list,
 .mat-selection-list{
     width: 200px;}
 
 .mat-drawer.mat-drawer-side{
     background: #e1e8ef;}
 
-.mat-list .mat-list-item, 
-.mat-list .mat-list-option, 
-.mat-nav-list .mat-list-item, 
-.mat-nav-list .mat-list-option, 
-.mat-selection-list .mat-list-item, 
+.mat-list .mat-list-item,
+.mat-list .mat-list-option,
+.mat-nav-list .mat-list-item,
+.mat-nav-list .mat-list-option,
+.mat-selection-list .mat-list-item,
 .mat-selection-list .mat-list-option{
     display: block;
     height: 48px;}
@@ -113,19 +113,10 @@ button:active{
     margin: 1rem 1rem 1rem 0rem}
 
 .vt-card {
-    max-width: 400px;  
+    max-width: 400px;
     margin: 1rem 1rem 1rem 0rem;}
 .vt-card-containt{
     padding-top: 1rem;
-}
-.vt-card-containt p{    
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;}
-.fullContaint{
-    -webkit-line-clamp: unset !important;
 }
 .movie-title{
     text-transform: capitalize;
@@ -139,9 +130,9 @@ button:active{
     border-radius: 50%;
     flex-shrink: 0;
     box-shadow: 0px 0px 9px 1px #2b626e;}
-    
+
 /* custom buttons */
-.vt-button-submit, 
+.vt-button-submit,
 .vt-button-like{
     background: rgb(169, 211, 18);
     color: #fff !important;
@@ -150,7 +141,7 @@ button:active{
     background: rgb(169, 211, 18);
     color: #fff !important;
 }
-.vt-button-cancel, 
+.vt-button-cancel,
 .vt-button-dislike{
     background: #98405d;
     color: #fff !important;
@@ -162,10 +153,10 @@ button:active{
 
 /* material input */
 
-.mat-checkbox-checked.mat-accent .mat-checkbox-background, 
+.mat-checkbox-checked.mat-accent .mat-checkbox-background,
 .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background{
   background-color: #8cb7ce !important;}
-  
+
 .mat-ripple-element {
     background: rgba(23, 121, 146, 0.5) !important
 }
@@ -180,7 +171,7 @@ button:active{
 .home-page{
     margin-top: -1rem;
     background-image: url('../images/home4.jpg');
-    height: 600px;
+    height: 700px;
     width: 100%;
     background-position: 100%;
     background-size: cover;
